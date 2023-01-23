@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Non cielo dicono!</title>
+        <!--    jQuery      -->
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <!--    Menù    -->
+        <script src="js/load_partials.js"></script>
+        <!--    Stile grafico       -->
+        <link rel="stylesheet" href="css/fakes.css">
+        <link rel="stylesheet" href="css/home-grid.css">
+        <!--    Main     -->
+        <script src="js/metadata.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/fakes.js"></script>
+        <script src="js/home.js"></script>
+        <!--    Facebook    -->
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v9.0" nonce="X7HHsAgx"></script>
+    </head>
+    <body>
+
+        <div id="fb-root"></div>
+        <div class="grid-container">
+            <div class="header">
+                <a href="index2.html">
+                    <img id="banner" src="img/sky.png" />
+                </a>
+            </div>
+            <div class="news">
+                <div id="my-title">
+                    <h2>ME L'HA DETTO MIO CUGINO</h2>
+                </div>
+                <div id="fake-news" title="QUESTA È UNA FAKE NEWS, NON FARE CHE POI CI CREDI DAVVERO E DAI LA COLPA A ME."></div>
+            </div>
+            <div class="next">
+                <span id="btn-reload">DIMMENE UN'ALTRA</span>
+            </div>
+            <div class="links"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+    <script>
+        $(document).ready(function () {
+            home.init();
+        });
+    </script>
+
+    </body>
+</html>

@@ -1,0 +1,117 @@
+{
+	"label": "do_with",
+	"value": [
+		{
+			"label": "fare gargarismi",
+			"next": {
+				"predicate": "with",
+				"tags": ["drink", "chemistry"]
+			}
+		},
+		{
+			"label": "assumere",
+			"next": {
+				"predicate": "some",
+				"tags": ["chemistry", "drug", "drink"]
+			}
+		},
+		{
+			"label": "farsi iniettare",
+			"next": {
+				"predicate": "the",
+				"tags": ["chemistry", "drug", "drink"]
+			}
+		},
+		{
+			"label": "mangiare",
+			"next": {
+				"predicate": "the",
+				"tags": ["food"]
+			}
+		},
+		{
+			"label": "bere grosse quantità",
+			"next": {
+				"predicate": "of",
+				"tags": ["chemistry", "drink"]
+			}
+		},
+		{
+			"label": "bere",
+			"next": {
+				"predicate": "the",
+				"tags": ["chemistry", "drink"]
+			}
+		},
+		{
+			"label": "mangiare grandi quantità",
+			"next": {
+				"predicate": "of",
+				"tags": ["food"]
+			}
+		},
+		{
+			"label": "fare un bagno caldo",
+			"next": {
+				"predicate": "with",
+				"tags": ["drink", "chemistry"]
+			}
+		},
+		{
+			"label": "mischiare la candeggina",
+			"next": {
+				"predicate": "with",
+				"tags": ["chemistry", "drink", "drug"]
+			}
+		},
+		{
+			"label": "applicare attorno alle narici",
+			"next": {
+				"predicate": "some",
+				"tags": ["chemistry"]
+			}
+		},
+		{
+			"label": "lavarsi le mani",
+			"next": {
+				"predicate": "with",
+				"tags": ["chemistry", "drink"]
+			}
+		},
+		{
+			"label": "indossare",
+			"next": {
+				"predicate": "the",
+				"tags": ["dress"]
+			}
+		},
+		{
+			"label": "fumare 5mg",
+			"next": {
+				"predicate": "of",
+				"tags": ["chemistry", "food", "drug"]
+			}
+		},
+		{
+			"label": "usare troppo",
+			"next": {
+				"predicate": "the",
+				"tags": ["technology", "drug"]
+			}
+		},
+		{
+			"label": "essere esposti a",
+			"next": {
+				"predicate": "the",
+				"tags": ["volatile", "bad-technology-volatile"]
+			}
+		},
+		{
+			"label": "installare",
+			"next": {
+				"predicate": "the",
+				"tags": ["app"]
+			}
+		}
+	]
+}

@@ -1,0 +1,103 @@
+
+div {
+    line-height: 1.5;
+}
+
+li {
+    margin: 0.3em;
+}
+
+@media only screen and (min-width: 600px) {
+    html, body, .grid-container { height: 100%; margin: 0; }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 0.2fr 2.6fr 0.2fr;
+        grid-template-rows: 0.5fr 2.2fr 0.4fr 0.4fr;
+        gap: 0px 0px;
+        grid-template-areas:
+                "left header right"
+                "left body right"
+                "left back right"
+                "left links right";
+    }
+
+    .header {
+        grid-area: header;
+        margin: auto;
+    }
+
+    .left { grid-area: left; }
+
+    .right { grid-area: right; }
+
+    .back {
+        grid-area: back;
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .links {
+        grid-area: links;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .body {
+        grid-area: body;
+        padding: 1em;
+        font-size: 1.2em;
+        text-align: left;
+        padding: 0.5em;
+    }
+
+    .left, .right {
+        background-color: #555555;
+    }
+
+    #content {
+        padding: 1em;
+        background: white;
+    }
+
+    #contact-us {
+        padding: 1em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html, body, .grid-container { height: 100%; margin: 0; }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 2.5fr 0.5fr 0.5fr;
+        gap: 0px 0px;
+        grid-template-areas:
+                "header"
+                "ads"
+                "body"
+                "back"
+                "links";
+    }
+
+    .header {
+        grid-area: header;
+        margin: auto;
+    }
+
+    .ads { grid-area: ads; }
+
+    .body { grid-area: body; }
+
+    .back { grid-area: back; }
+
+    .links { grid-area: links; }
+
+    .body {
+        padding: 1em;
+        text-align: left;
+    }
+
+}

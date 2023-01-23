@@ -1,0 +1,66 @@
+{
+    "label": "evil_organization",
+    "value": [
+        {
+            "the": "i poteri forti",
+            "of": "dei poteri forti",
+            "with": "con i poteri forti",
+            "type": "plural_male"
+        },
+        {
+            "the": "i servizi segreti",
+            "of": "dei servizi segreti",
+            "with": "con i servizi segreti",
+            "type": "plural_male"
+        },
+        {
+            "from": "dai terroristi in medio Oriente",
+            "of": "di terroristi in medio Oriente",
+            "the": "i terroristi in medio Oriente",
+            "with": "con i terroristi in medio Oriente",
+            "type": "plural_male"
+        },
+        {
+            "the": "la case farmaceutiche",
+            "of": "delle case farmaceutiche",
+            "with": "con le case farmaceutiche",
+            "type": "plural_female"
+        },
+        {
+            "the": "il Nuovo Ordine Mondiale",
+            "of": "del Nuovo Ordine Mondiale",
+            "with": "con il Nuovo Ordine Mondiale",
+            "type": "singular_male"
+        },
+        {
+            "the": "i neo-nazisti",
+            "of": "di neo-nazisti",
+            "with": "con i neo-nazisti",
+            "type": "plural_male"
+        },
+        {
+            "the": "le lobby ebree",
+            "of": "delle lobby ebree",
+            "with": "con le lobby ebree",
+            "type": "plural_female"
+        },
+        {
+            "the": "le lobby gay",
+            "of": "delle lobby gay",
+            "with": "con le lobby gay",
+            "type": "plural_female"
+        },
+        {
+            "the": "gli Stati Uniti d'America",
+            "of": "degli Stati Uniti d'America",
+            "with": "con gli Stati Uniti d'America",
+            "type": "plural_male"
+        },
+        {
+            "the": "La Cina",
+            "of": "della Cina",
+            "with": "con la Cina",
+            "type": "singular_female"
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "label": "do_something_does_what",
+    "value": [
+        {
+            "singular_male": "facilita il contagio",
+            "plural_male": "facilitano il contagio",
+            "next": {
+                "predicate": "of",
+                "tags": ["disease-contagious"]
+            }
+        },
+        {
+            "singular_male": "fortifica e quindi protegge",
+            "plural_male": "fortificano e quindi proteggono",
+            "next": {
+                "predicate": "from",
+                "tags": ["disease-contagious", "bad-technology-volatile"]
+            }
+        },
+        {
+            "singular_male": "migliora la respirazione e quindi non fa ammalare",
+            "plural_male": "migliorano la respirazione e quindi non fanno ammalare",
+            "next": {
+                "predicate": "of",
+                "tags": ["disease-contagious"]
+            }
+        },
+        {
+            "singular_male": "può diffondere",
+            "plural_male": "possono diffondere",
+            "next": {
+                "predicate": "the",
+                "tags": ["disease-contagious"]
+            }
+        },
+        {
+            "singular_male": "può curare",
+            "plural_male": "possono curare",
+            "next": {
+                "predicate": "from",
+                "tags": ["disease"]
+            }
+        },
+        {
+            "singular_male": "previene",
+            "plural_male": "prevengono",
+            "next": {
+                "predicate": "from",
+                "tags": ["disease"]
+            }
+        },
+        {
+            "singular_male": "rende ciechi",
+            "plural_male": "rendono ciechi",
+            "next": {
+                "predicate": "end",
+                "tags": ["end"]
+            }
+        },
+        {
+            "singular_male": "aumenta il rischio di contrarre",
+            "plural_male": "aumentano il rischio di contrarre",
+            "next": {
+                "predicate": "the",
+                "tags": ["disease"]
+            }
+        },
+        {
+            "singular_male": "aumenta il rischio di essere vittima",
+            "plural_male": "aumentano il rischio di essere vittima",
+            "next": {
+                "predicate": "some",
+                "tags": ["disease"]
+            }
+        },
+        {
+            "singular_male": "può aiutare a prevenire",
+            "plural_male": "possono aiutare a prevenire",
+            "next": {
+                "predicate": "from",
+                "tags": ["disease"]
+            }
+        },
+        {
+            "singular_male": "rinforza il sistema immunitario e protegge",
+            "plural_male": "rinforzano il sistema immunitario e proteggono",
+            "next": {
+                "predicate": "from",
+                "tags": ["disease-contagious", "bad-technology-volatile"]
+            }
+        },
+        {
+            "singular_male": "può causare",
+            "plural_male": "possono causare",
+            "next": {
+                "predicate": "the",
+                "tags": ["disease"]
+            }
+        }
+    ]
+}

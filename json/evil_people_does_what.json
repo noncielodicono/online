@@ -1,0 +1,115 @@
+{
+	"label": "evil_people_does_what",
+	"value": [
+		{
+			"singular_male": "vuole controllare le nostre menti tramite l'aiuto",
+			"singular_female": "vuole controllare le nostre menti tramite l'aiuto",
+			"plural_male": "vogliono controllare le nostre menti tramite l'aiuto",
+			"plural_female": "vogliono controllare le nostre menti tramite l'aiuto",
+			"next": {
+				"predicate": "of",
+				"tags": ["bad-techology", "bad-techology-volatile", "mythology"]
+			}
+		},
+		{
+			"singular_male": "ha nascosto la verità riguardo",
+			"singular_female": "ha nascosto la verità riguardo",
+			"plural_male": "hanno nascosto la verità riguardo",
+			"plural_female": "hanno nascosto la verità riguardo",
+			"next": {
+				"predicate": "the",
+				"tags": ["mythology"]
+			}
+		},
+		{
+			"singular_male": "vuole iniettarci",
+			"singular_female": "vuole iniettarci",
+			"plural_male": "vogliono iniettarci",
+			"plural_female": "vogliono iniettarci",
+			"next": {
+				"predicate": "some",
+				"tags": ["chemistry"]
+			}
+		},
+		{
+			"singular_male": "si è alleato con i rettiliani per conquistare il mondo tramite",
+			"singular_female": "si è alleata con i rettiliani per conquistare il mondo tramite",
+			"plural_male": "si sono alleati con i rettiliani per conquistare il mondo tramite",
+			"plural_female": "si sono alleate con i rettiliani per conquistare il mondo tramite",
+			"next": {
+				"predicate": "the",
+				"tags": ["volatile", "bad-technology", "bad-technology-volatile"]
+			}
+		},
+		{
+			"singular_male": "ha sovvenzionato",
+			"singular_female": "ha sovvenzionato",
+			"plural_male": "hanno sovvenzionato",
+			"plural_female": "hanno sovvenzionato",
+			"next": {
+				"predicate": "the",
+				"tags": ["event-mankind"]
+			}
+		},
+		{
+			"singular_male": "è stato il primo a scoprire",
+			"singular_female": "è stata la prima a scoprire",
+			"plural_male": "sono stati i primi a scoprire",
+			"plural_female": "sono state le prime a scoprire",
+			"next": {
+				"predicate": "the",
+				"tags": ["technology-fanta", "drug", "earth"]
+			}
+		},
+		{
+			"singular_male": "ha pubblicamente negato",
+			"singular_female": "ha pubblicamente negato",
+			"plural_male": "ha pubblicamente negato",
+			"plural_female": "hanno pubblicamente negato",
+			"next": {
+				"predicate": "the",
+				"tags": ["event-mankind", "theory"]
+			}
+		},
+		{
+			"singular_male": "ha fatto pressioni per censurare",
+			"singular_female": "ha fatto pressioni per censurare",
+			"plural_male": "hanno fatto pressioni per censurare",
+			"plural_female": "hanno fatto pressioni per censurare",
+			"next": {
+				"predicate": "the",
+				"tags": ["event-mankind", "event", "event-natural"]
+			}
+		},
+		{
+			"singular_male": "si è arricchito tramite il contrabbando",
+			"singular_female": "si è arricchita tramite il contrabbando",
+			"plural_male": "si sono arricchiti tramite il contrabbando",
+			"plural_female": "si sono arricchite tramite il contrabbando",
+			"next": {
+				"predicate": "of",
+				"tags": ["drug", "food"]
+			}
+		},
+		{
+			"singular_male": "è l'artefice",
+			"singular_female": "è l'artefice",
+			"plural_male": "sono gli artefici",
+			"plural_female": "sono le artefici",
+			"next": {
+				"predicate": "of",
+				"tags": ["event", "event-mankind"]
+			}
+		},
+		{
+			"singular_male": "ha organizzato l'invasione ucraina per appropriarsi delle loro scorte",
+			"singular_female": "ha organizzato l'invasione ucraina per appropriarsi delle loro scorte",
+			"plural_male": "hanno organizzato l'invasione ucraina per appropriarsi delle loro scorte",
+			"plural_female": "hanno organizzato l'invasione ucraina per appropriarsi delle loro scorte",
+			"next": {
+				"predicate": "of",
+				"tags": ["chemistry", "bad-technology", "food", "draw"]
+			}
+		}
+	]
+}

@@ -1,0 +1,85 @@
+{
+	"label": "people_does_what",
+	"value": [
+		{
+			"singular_male": "non rischia di essere contagiato",
+			"plural_male": "non rischiano di essere contagiati",
+			"singular_female": "non rischia di essere contagiata",
+			"plural_female": "non rischiano di essere contagiate",
+			"next": {
+				"predicate": "from",
+				"tags": ["disease-contagious"]
+			}
+		},
+		{
+			"singular_male": "può trasmettere",
+			"plural_male": "possono trasmettere",
+			"singular_female": "può trasmettere",
+			"plural_female": "possono trasmettere",
+			"next": {
+				"predicate": "the",
+				"tags": ["disease-contagious", "bad-technology-volatile"]
+			}
+		},
+		{
+			"singular_male": "è immune all’epidemia",
+			"plural_male": "sono immuni all’epidemia",
+			"singular_female": "è immune all’epidemia",
+			"plural_female": "sono immuni all’epidemia",
+			"next": {
+				"predicate": "of",
+				"tags": ["disease-contagious"]
+			}
+		},
+		{
+			"singular_male": "rischia più degli altri di ammalarsi",
+			"plural_male": "rischiano più degli altri di ammalarsi",
+			"singular_female": "rischia più degli altri di ammalarsi",
+			"plural_female": "rischiano più degli altri di ammalarsi",
+			"next": {
+				"predicate": "of",
+				"tags": ["disease-contagious"]
+			}
+		},
+		{
+			"singular_male": "è più a rischio di contrarre",
+			"plural_male": "sono più a rischio di contrarre",
+			"singular_female": "è più a rischio di contrarre",
+			"plural_female": "sono più a rischio di contrarre",
+			"next": {
+				"predicate": "the",
+				"tags": ["disease-contagious"]
+			}
+		},
+		{
+			"singular_male": "ha il sangue più scuro",
+			"plural_male": "hanno il sangue più scuro",
+			"singular_female": "ha il sangue più scuro",
+			"plural_female": "hanno il sangue più scuro",
+			"next": {
+				"predicate": "end",
+				"tags": ["end"]
+			}
+		},
+		{
+			"singular_male": "non riesce a trattenere il respiro per più di 10 secondi senza tossire",
+			"plural_male": "non riescono a trattenere il respiro per più di 10 secondi senza tossire",
+			"singular_female": "non riesce a trattenere il respiro per più di 10 secondi senza tossire",
+			"plural_female": "non riescono a trattenere il respiro per più di 10 secondi senza tossire",
+			"next": {
+				"predicate": "end",
+				"tags": ["end"]
+			}
+		},
+		{
+			"singular_male": "è stato messo in quarantena a causa",
+			"plural_male": "sono stati messi in quarantena a causa",
+			"singular_female": "è stata messa in quarantena a causa",
+			"plural_female": "sono state messe in quarantena a causa",
+			"next": {
+				"predicate": "some",
+				"tags": ["disease-contagious", "bad-technology-volatile"]
+			}
+		}
+	]
+}

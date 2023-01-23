@@ -1,0 +1,181 @@
+{
+	"label": "who_evil",
+	"value": [
+		{
+			"the": "Donald Trump",
+			"of": "di Donald Trump",
+			"with": "con Donald Trump",
+			"type": "singular_male"
+		},
+		{
+			"the": "l'ex presidente George W. Bush",
+			"of": "dell'ex presidente George W. Bush",
+			"with": "con l'ex presidente George W. Bush",
+			"type": "singular_male"
+		},
+		{
+			"the": "Barack Obama",
+			"of": "di Barack Obama",
+			"with": "con Barack Obama",
+			"type": "singular_male"
+		},
+		{
+			"the": "Bill Gates",
+			"of": "di Bill Gates",
+			"with": "con Bill Gates",
+			"type": "singular_male"
+		},
+		{
+			"the": "Soros",
+			"of": "di Soros",
+			"with": "con Soros",
+			"type": "singular_male"
+		},
+		{
+			"the": "Mark Zuckerberg",
+			"of": "di Mark Zuckerberg",
+			"with": "con Mark Zuckerberg",
+			"type": "singular_male"
+		},
+		{
+			"the": "Adolf Hitler",
+			"of": "di Adolf Hitler",
+			"con": "con Adolf Hitler",
+			"type": "singular_male"
+		},
+		{
+			"the": "Greta Thunberg",
+			"of": "di Greta Thunberg",
+			"with": "con Greta Thunberg",
+			"type": "singular_female"
+		},
+		{
+			"the": "i membri dell'OMS",
+			"of": "di membri dell'OMS",
+			"with": "con i membri dell'OMS",
+			"type": "plural_male"
+		},
+		{
+			"the": "papa Francesco",
+			"of": "papa Francesco",
+			"with": "papa Francesco",
+			"type": "singular_male"
+		},
+		{
+			"the": "Kim Jong-un",
+			"of": "di Kim Jong-un",
+			"with": "con Kim Jong-un",
+			"type": "singular_male"
+		},
+		{
+			"the": "Eelon Musk",
+			"of": "di Eelon Musk",
+			"with": "con Eelon Musk",
+			"type": "singular_male"
+		},
+		{
+			"the": "Saddam Hussein",
+			"of": "di Saddam Hussein",
+			"with": "con Saddam Hussein",
+			"type": "singular_male"
+		},
+		{
+			"the": "Stanley Kubrick",
+			"of": "di Stanley Kubrick",
+			"with": "con Stanley Kubrick",
+			"type": "singular_male"
+		},
+		{
+			"the": "Marilyn Monroe",
+			"of": "di Marilyn Monroe",
+			"with": "con Marilyn Monroe",
+			"type": "singular_female"
+		},
+		{
+			"the": "i membri del governo",
+			"of": "dei membri del governo",
+			"with": "con i membri del governo",
+			"type": "plural_male"
+		},
+		{
+			"the": "Nostradamus",
+			"of": "di Nostradamus",
+			"with": "con Nostradamus",
+			"type": "singular_male"
+		},
+		{
+			"from": "da Walt Disney",
+			"of": "di Walt Disney",
+			"the": "Walt Disney",
+			"with": "con Walt Disney",
+			"type": "singular_male"
+		},
+		{
+			"from": "dagli adepti di Scientology",
+			"of": "di adepti di Scientology",
+			"the": "gli adepti di Scientology",
+			"with": "con gli adepti di Scientology",
+			"type": "plural_male"
+		},
+		{
+			"the": "gli illuminati",
+			"of": "di illuminati",
+			"with": "con gli illuminati",
+			"type": "plural_male"
+		},
+		{
+			"the": "i massoni",
+			"of": "dei massoni",
+			"with": "con i massoni",
+			"type": "plural_male"
+		},
+		{
+			"the": "gli agenti dell'FBI",
+			"of": "dagli agenti dell'FBI",
+			"with": "con gli agenti dell'FBI",
+			"type": "plural_male"
+		},
+		{
+			"the": "i membri della CIA",
+			"of": "di membri della CIA",
+			"with": "con i membri  della CIA",
+			"type": "plural_male"
+		},
+		{
+			"the": "i membri del CICAP",
+			"of": "di membti del CICAP",
+			"with": "con i membri del CICAP",
+			"type": "plural_male"
+		},
+		{
+			"the": "i membri della BCE",
+			"of": "di membri della BCE",
+			"with": "con i membri della BCE",
+			"type": "plural_male"
+		},
+		{
+			"the": "i migranti",
+			"of": "di migranti",
+			"with": "con i migranti",
+			"type": "plural_male"
+		},
+		{
+			"the": "Vladimir Putin",
+			"of": "di Vladimir Putin",
+			"with": "con Vladimir Putin",
+			"type": "singular_male"
+		},
+		{
+			"the": "Joe Biden",
+			"of": "di Joe Biden",
+			"with": "con Joe Biden",
+			"type": "singular_male"
+		},
+		{
+			"the": "Matteo Messina Denaro",
+			"of": "di Matteo Messina Denaro",
+			"with": "con Matteo Messina Denaro",
+			"type": "singular_male"
+		}
+	]
+}

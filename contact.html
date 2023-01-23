@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Non cielo dicono!</title>
+    <!--    jQuery      -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!--    Menù    -->
+    <script src="js/load_partials.js"></script>
+    <!--    Captcha      -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!--    Stile grafico       -->
+    <link rel="stylesheet" href="css/fakes.css">
+    <link rel="stylesheet" href="css/links-grid.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+    <div class="grid-container">
+        <div class="header"></div>
+        <div class="ads"></div>
+        <div class="body">
+            <div id="my-title">
+                <h2>Contatti</h2>
+            </div>
+            <div id="content">
+                Hai suggerimenti, osservazioni, minacce di morte o foto osé da mandarmi? <br/>
+                Compila il form, e prometto che prima o poi leggerò.
+                <div style="padding: 1em">
+                    <form method="post" action="src/contact.php" name="contact">
+                        <label for="username">Email</label>
+                        <input type="text" id="username" name="username" placeholder="la tua email">
+
+                        <label for="message">Messaggio</label>
+                        <textarea id="message" name="message" placeholder="messaggi, robe, fatti, cose"></textarea>
+
+                        <div class="g-recaptcha" data-sitekey="6LcPJvUZAAAAAGZ4EmUSX142AuEv5WNlaO09V5Pf"></div>
+
+                        <input id="submit" type="submit" value="Invia" class="disabled" disabled />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="back"></div>
+        <div class="links"></div>
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+
+    <script type="text/javascript">
+        let username = $('#username');
+        let message = $('#message');
+        let submit = $('#submit');
+        $(username).add(message).keyup(function () {
+            if( username.val() && message.val() ) {
+                submit
+                    .removeClass('disabled')
+                    .prop('disabled', false)
+                ;
+            } else {
+                submit
+                    .addClass('disabled')
+                    .prop('disabled', true)
+                ;
+            }
+        });
+    </script>
+
+</body>
+</html>

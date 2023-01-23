@@ -1,0 +1,82 @@
+{
+	"label": "is_possible_to_do",
+	"value": [
+		{
+			"label": "si possono produrre disinfettanti fatti in casa miscelando l'olio e ",
+			"next": {
+				"predicate": "the",
+				"tags": ["chemistry", "drink", "drug"]
+			}
+		},
+		{
+			"label": "è possibile disinfettare mani o aree della pelle tramite l'uso",
+			"next": {
+				"predicate": "some",
+				"tags": ["chemistry", "drink"]
+			}
+		},
+		{
+			"label": "è possibile tracciare una persona tramite",
+			"next": {
+				"predicate": "the",
+				"tags": ["bad-technology", "app"]
+			}
+		},
+		{
+			"label": "è possibile curare qualsiasi tipo di cancro tramite una dieta a base",
+			"next": {
+				"predicate": "of",
+				"tags": ["chemistry", "food"]
+			}
+		},
+		{
+			"label": "è possibile creare una piccola bomba mischiando la coca cola",
+			"next": {
+				"predicate": "with",
+				"tags": ["chemistry", "food", "drink"]
+			}
+		},
+		{
+			"label": "è possibile vivere più a lungo tramite una dieta a base",
+			"next": {
+				"predicate": "of",
+				"tags": ["chemistry", "food", "drink"]
+			}
+		},
+		{
+			"label": "è possibile vivere più a lungo tramite",
+			"next": {
+				"predicate": "the",
+				"tags": ["therapy"]
+			}
+		},
+		{
+			"label": "è possibile sterilizzare l’aria e gli ambienti tramite",
+			"next": {
+				"predicate": "the",
+				"tags": ["volatile"]
+			}
+		},
+		{
+			"label": "esiste già una cura per",
+			"next": {
+				"predicate": "the",
+				"tags": ["disease"]
+			}
+		},
+		{
+			"label": "è possibile curarsi dalle scottature al mare spalmandosi sulla pelle",
+			"next": {
+				"predicate": "some",
+				"tags": ["food", "drink", "chemistry"]
+			}
+		},
+		{
+			"label": "è possibile dimagrire fino a 5kg a settimana con una dieta a base",
+			"next": {
+				"predicate": "of",
+				"tags": ["food", "drink", "chemistry"]
+			}
+		}
+	]
+}
