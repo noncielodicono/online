@@ -58,6 +58,14 @@ a {
         padding: 0.2em 3.0em;
     }
 
+    #footer {
+        font-size: 5em;
+    }
+
+    .disclaimer {
+        font-size: 5.5em !important;
+    }
+
 }
 
 #fake-news {
