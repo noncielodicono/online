@@ -96,6 +96,14 @@
 			"the": "il movimento QAnon",
 			"with": "con il movimento QAnon",
 			"type": "singular_male"
+		},
+		{
+			"from": "da Michael Jackson",
+			"of": "di Michael Jackson",
+			"some": "di Michael Jackson",
+			"the": "Michael Jackson",
+			"with": "con Michael Jackson",
+			"type": "singular_male"
 		}
 	]
 }

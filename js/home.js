@@ -27,7 +27,6 @@
                 reloadFakeNews();
             })
         ;
-
     };
 
     this.home = {

@@ -176,6 +176,12 @@
 			"of": "di Matteo Messina Denaro",
 			"with": "con Matteo Messina Denaro",
 			"type": "singular_male"
+		},
+		{
+			"the": "il mostro di Firenze",
+			"of": "del mostro di Firenze",
+			"with": "con il mostro di Firenze",
+			"type": "singular_male"
 		}
 	]
 }

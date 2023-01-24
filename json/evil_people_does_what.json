@@ -110,6 +110,16 @@
 				"predicate": "of",
 				"tags": ["chemistry", "bad-technology", "food", "draw"]
 			}
+		},
+		{
+			"singular_male": "ha inventato",
+			"singular_female": "ha inventato",
+			"plural_male": "hanno inventato",
+			"plural_female": "hanno inventato",
+			"next": {
+				"predicate": "the",
+				"tags": ["bad-technology", "technology-fanta", "technology", "bad-technology-volatile"]
+			}
 		}
 	]
 }

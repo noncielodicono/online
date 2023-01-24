@@ -28,7 +28,7 @@
 			"plural_female": "hanno un tatuaggio nascosto che raffigura",
 			"next": {
 				"predicate": "the",
-				"tags": ["event-mankind", "food", "mythology", "draw"]
+				"tags": ["food", "draw"]
 			}
 		},
 		{
@@ -38,7 +38,17 @@
 			"plural_female": "hanno organizzato l'invasione ucraina per appropriarsi delle loro forniture",
 			"next": {
 				"predicate": "of",
-				"tags": ["chemistry", "bad-technology", "food", "draw"]
+				"tags": ["chemistry", "bad-technology", "food"]
+			}
+		},
+		{
+			"singular_male": "è il diretto responsabile",
+			"singular_female": "è la diretta responsabile",
+			"plural_male": "sono i diretti responsabili",
+			"plural_female": "sono le dirette responsabili",
+			"next": {
+				"predicate": "of",
+				"tags": ["event", "event-natural", "event-mankind"]
 			}
 		}
 	]

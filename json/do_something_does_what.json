@@ -77,7 +77,7 @@
             "singular_male": "può aiutare a prevenire",
             "plural_male": "possono aiutare a prevenire",
             "next": {
-                "predicate": "from",
+                "predicate": "the",
                 "tags": ["disease"]
             }
         },

@@ -102,7 +102,7 @@
 		{
 			"label": "essere esposti a",
 			"next": {
-				"predicate": "the",
+				"predicate": "to",
 				"tags": ["volatile", "bad-technology-volatile"]
 			}
 		},

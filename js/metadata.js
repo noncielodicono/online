@@ -11,7 +11,7 @@
 
     this.metadata = {
         getType: function () {
-            return type ? type : 'singular_male';
+            return type;
         },
         setType: function(newType) {
             if( !type ) {

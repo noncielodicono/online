@@ -1,6 +1,6 @@
 (function() {
 
-    let nodes = undefined;
+    let nodes = [];
 
     let promises = [];
 
@@ -8,7 +8,6 @@
 
     // Importa i json con tutti i nodi
     let importNodes = function () {
-        nodes = [];
         for(jsonPath of common.jsonPaths) {
             // estrae i nodi
             let promise = $.getJSON(jsonPath, function (jsonNode) {
@@ -54,8 +53,6 @@
             nodeType === 'do_something_does_what' ||
             nodeType === 'people_does_what'
         ) {
-            let type = metadata.getType();
-            metadata.setType( type );
             metadata.setNextPredicate( node.next.predicate );
             metadata.setNextTags( node.next.tags );
             return node[metadata.getType()];
@@ -113,7 +110,6 @@
         } catch (e) {
             console.log(e);
             reset();
-            // generate();
         }
     };
 
@@ -125,7 +121,7 @@
     // Riempie tutte le strutture
     let init = function () {
         importNodes();
-        $.when.apply($, promises).then(function (data) {
+        $.when.apply($, promises).then(() => {
             // Calcola il "peso" di ogni percorso
             common.calculatePathsWeight(nodes);
             fakes.generate();
