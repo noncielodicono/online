@@ -26,8 +26,8 @@
             }
         },
         {
-            "singular_male": "può diffondere",
-            "plural_male": "possono diffondere",
+            "singular_male": "può aiutare a diffondere",
+            "plural_male": "possono aiutare a diffondere",
             "next": {
                 "predicate": "the",
                 "tags": ["disease-contagious"]
@@ -42,10 +42,10 @@
             }
         },
         {
-            "singular_male": "previene",
-            "plural_male": "prevengono",
+            "singular_male": "previene dal rischio di contrarre",
+            "plural_male": "prevengono dal rischio di contrarre",
             "next": {
-                "predicate": "from",
+                "predicate": "the",
                 "tags": ["disease"]
             }
         },
@@ -55,6 +55,14 @@
             "next": {
                 "predicate": "end",
                 "tags": ["end"]
+            }
+        },
+        {
+            "singular_male": "rende immuni",
+            "plural_male": "rende immuni",
+            "next": {
+                "predicate": "from",
+                "tags": ["disease"]
             }
         },
         {
@@ -90,11 +98,11 @@
             }
         },
         {
-            "singular_male": "può causare",
-            "plural_male": "possono causare",
+            "singular_male": "può causare una forte allergia",
+            "plural_male": "possono causare una forte allergia",
             "next": {
-                "predicate": "the",
-                "tags": ["disease"]
+                "predicate": "to",
+                "tags": ["food", "drink", "chemistry"]
             }
         }
     ]

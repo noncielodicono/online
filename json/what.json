@@ -8,7 +8,6 @@
 			"the": "la rosolia",
 			"with": "con la rosolia",
 			"to": "alla rosolia",
-			"type": "singular_male",
 			"tags": ["disease", "disease-contagious"]
 		},
 		{
@@ -18,7 +17,6 @@
 			"the": "il coronavirus",
 			"with": "con il coronavirus",
 			"to": "al coronavirus",
-			"type": "singular_male",
 			"tags": ["disease", "disease-contagious", "volatile"]
 		},
 		{
@@ -28,7 +26,6 @@
 			"the": "la varicella",
 			"with": "con la varicella",
 			"to": "alla varicella",
-			"type": "singular_male",
 			"tags": ["disease", "disease-contagious"]
 		},
 		{
@@ -38,7 +35,6 @@
 			"the": "il morbillo",
 			"with": "con il morbillo",
 			"to": "al morbillo",
-			"type": "singular_male",
 			"tags": ["disease", "disease-contagious"]
 		},
 		{
@@ -48,7 +44,6 @@
 			"the": "l'autismo",
 			"with": "con l'autismo",
 			"to": "all'autismo",
-			"type": "singular_male",
 			"tags": ["disease"]
 		},
 		{
@@ -58,7 +53,6 @@
 			"the": "l'ossitocina",
 			"to": "all'ossitocina",
 			"with": "con l'ossitocina",
-			"type": "singular_male",
 			"tags": ["chemistry"]
 		},
 		{
@@ -68,7 +62,15 @@
 			"the": "l'acido acetico",
 			"with": "con l'acito acetico",
 			"to": "all'acito acetico",
-			"type": "singular_male",
+			"tags": ["drug", "chemistry"]
+		},
+		{
+			"from": "dalla cannabis",
+			"of": "di cannabis",
+			"some": "della cannabis",
+			"the": "la cannabis",
+			"with": "con la cannabis",
+			"to": "alla cannabis",
 			"tags": ["drug", "chemistry"]
 		},
 		{
@@ -78,7 +80,6 @@
 			"the": "la candeggina",
 			"with": "con la candeggina",
 			"to": "alla candeggina",
-			"type": "singular_male",
 			"tags": ["chemistry"]
 		},
 		{
@@ -88,7 +89,6 @@
 			"the": "gli steroidi",
 			"with": "con gli steroidi",
 			"to": "agli steroidi",
-			"type": "plural_male",
 			"tags": ["drug"]
 		},
 		{
@@ -98,7 +98,6 @@
 			"the": "la suola delle scarpe",
 			"with": "con la suola delle scarpe",
 			"to": "alla suola delle scarpe",
-			"type": "singular_male",
 			"tags": ["dress"]
 		},
 		{
@@ -107,8 +106,7 @@
 			"some": "del copricapo fatto di carta stagnola",
 			"the": "un copricapo fatto di carta stagnola",
 			"with": "con un copricapo fatto di carta stagnola",
-			"to": "al copricapo",
-			"type": "singular_male",
+			"to": "al copricapo fatto di carta stagnola",
 			"tags": ["dress"]
 		},
 		{
@@ -118,7 +116,15 @@
 			"the": "le verdure crude",
 			"with": "con le verdure crude",
 			"to": "alle verdure crude",
-			"type": "plural_male",
+			"tags": ["food"]
+		},
+		{
+			"from": "dal glutine",
+			"of": "del glutine",
+			"some": "del glutine",
+			"the": "il glutine",
+			"with": "con il glutine",
+			"to": "al glutine",
 			"tags": ["food"]
 		},
 		{
@@ -128,7 +134,6 @@
 			"the": "i farmarci antivirali",
 			"with": "con i farmarci antivirali",
 			"to": "ai farmarci antivirali",
-			"type": "plural_male",
 			"tags": ["drug"]
 		},
 		{
@@ -138,7 +143,6 @@
 			"the": "l'aglio",
 			"with": "con l'aglio",
 			"to": "all'aglio",
-			"type": "singular_male",
 			"tags": ["food"]
 		},
 		{
@@ -148,18 +152,7 @@
 			"the": "l'acqua",
 			"with": "con l'acqua",
 			"to": "all'acqua",
-			"type": "singular_male",
 			"tags": ["drink"]
-		},
-		{
-			"from": "dall'acido",
-			"of": "d'acido",
-			"some": "dell'acido",
-			"the": "l'acido",
-			"with": "con l'acido",
-			"to": "all'acido",
-			"type": "singular_male",
-			"tags": ["chemistry"]
 		},
 		{
 			"from": "delle arance",
@@ -168,7 +161,6 @@
 			"the": "le arance",
 			"with": "con le arance",
 			"to": "alle arance",
-			"type": "plural_male",
 			"tags": ["food"]
 		},
 		{
@@ -178,7 +170,6 @@
 			"the": "i limoni",
 			"with": "con i limoni",
 			"to": "ai limoni",
-			"type": "plural_male",
 			"tags": ["food"]
 		},
 		{
@@ -188,7 +179,6 @@
 			"the": "gli antibiotici",
 			"with": "con gli antibiotici",
 			"to": "agli antibiotici",
-			"type": "plural_male",
 			"tags": ["drug"]
 		},
 		{
@@ -198,7 +188,6 @@
 			"the": "la tachipirina",
 			"with": "con la tachipirina",
 			"to": "alla tachipirina",
-			"type": "singular_male",
 			"tags": ["drug"]
 		},
 		{
@@ -208,28 +197,34 @@
 			"the": "le punture di zanzare",
 			"with": "con le punture di zanzare",
 			"to": "alle punture di zanzare",
-			"type": "plural_male",
 			"tags": ["annoying"]
 		},
 		{
-			"from": "dalle radiazioni del '5G",
-			"of": "di radiazioni del '5G",
-			"some": "delle radiazioni del '5G",
-			"the": "le radiazioni del '5G",
-			"with": "con le radiazioni del '5G",
-			"to": "alle radiazioni del '5G",
-			"type": "plural_male",
-			"tags": ["bad-technology", "volatile", "bad-technology-volatile"]
+			"from": "dalla fila alla posta",
+			"of": "della fila alla posta",
+			"some": "della fila alla posta",
+			"the": "la fila alla posta",
+			"with": "con la fila alla posta",
+			"to": "alla fila alla posta",
+			"tags": ["annoying"]
 		},
 		{
-			"from": "dal controllo dei satelliti spia",
-			"of": "di controllo dei satelliti spia",
-			"some": "del controllo dei satelliti spia",
-			"the": "il controllo dei satelliti spia",
-			"with": "con il controllo dei satelliti spia",
-			"to": "al controllo dei satelliti spia",
-			"type": "singular_male",
-			"tags": ["bad-technology", "volatile", "bad-technology-volatile"]
+			"from": "dalle radiazioni del 5G",
+			"of": "di radiazioni del 5G",
+			"some": "delle radiazioni del 5G",
+			"the": "le radiazioni del 5G",
+			"with": "con le radiazioni del 5G",
+			"to": "alle radiazioni del 5G",
+			"tags": ["bad-technology", "bad-technology-volatile"]
+		},
+		{
+			"from": "dei satelliti spia",
+			"of": "di satelliti spia",
+			"some": "dei satelliti spia",
+			"the": "i satelliti spia",
+			"with": "con i satelliti spia",
+			"to": "ai satelliti spia",
+			"tags": ["bad-technology", "bad-technology-volatile"]
 		},
 		{
 			"from": "dal microonde",
@@ -238,7 +233,6 @@
 			"the": "il microonde",
 			"with": "con il microonde",
 			"to": "al microonde",
-			"type": "singular_male",
 			"tags": ["bad-technology"]
 		},
 		{
@@ -248,7 +242,6 @@
 			"the": "i cellulari",
 			"with": "con i cellulari",
 			"to": "ai cellulari",
-			"type": "plural_male",
 			"tags": ["bad-technology"]
 		},
 		{
@@ -258,7 +251,6 @@
 			"the": "i bitcoin",
 			"with": "con i bitcoin",
 			"to": "ai bitcoin",
-			"type": "plural_male",
 			"tags": ["bad-technology"]
 		},
 		{
@@ -268,7 +260,6 @@
 			"the": "l'acqua del rubinetto",
 			"with": "con l'acqua del rubinetto",
 			"to": "all'acqua del rubinetto",
-			"type": "singular_male",
 			"tags": ["drink"]
 		},
 		{
@@ -278,7 +269,6 @@
 			"the": "gli essiccatori per mani ad aria calda",
 			"with": "con gli essiccatori per mani ad aria calda",
 			"to": "agli essiccatori per mani ad aria calda",
-			"type": "plural_male",
 			"tags": ["technology"]
 		},
 		{
@@ -288,7 +278,6 @@
 			"the": "i detergenti per i pavimenti",
 			"with": "con i detergenti per i pavimenti",
 			"to": "ai detergenti per i pavimenti",
-			"type": "plural_male",
 			"tags": ["chemistry"]
 		},
 		{
@@ -298,7 +287,6 @@
 			"the": "il clima caldo",
 			"with": "con il clima caldo",
 			"to": "al clima caldo",
-			"type": "singular_male",
 			"tags": ["weather"]
 		},
 		{
@@ -308,17 +296,15 @@
 			"the": "i farmaci sperimentali",
 			"with": "con i farmaci sperimentali",
 			"to": "ai farmaci sperimentali",
-			"type": "plural_male",
 			"tags": ["drug"]
 		},
 		{
 			"from": "dale droghe sintetiche",
 			"of": "di droghe sintetiche",
-			"some": "dell droghe sintetiche",
+			"some": "delle droghe sintetiche",
 			"the": "le droghe sintetiche",
 			"with": "con le droghe sintetiche",
 			"to": "alle droghe sintetiche",
-			"type": "plural_male",
 			"tags": ["drug"]
 		},
 		{
@@ -328,7 +314,6 @@
 			"the": "la vitamina D",
 			"with": "con la vitamina D",
 			"to": "alla vitamina D",
-			"type": "singular_male",
 			"tags": ["chemistry"]
 		},
 		{
@@ -338,7 +323,6 @@
 			"the": "la vitamina C",
 			"with": "con la vitamina C",
 			"to": "alla vitamina C",
-			"type": "singular_male",
 			"tags": ["chemistry"]
 		},
 		{
@@ -348,7 +332,6 @@
 			"the": "il sale grosso",
 			"with": "con il sale grosso",
 			"to": "al sale grosso",
-			"type": "singular_male",
 			"tags": ["food"]
 		},
 		{
@@ -358,7 +341,6 @@
 			"the": "i trattamenti ayurvedici",
 			"with": "con i trattamenti ayurvedici",
 			"to": "ai trattamenti ayurvedici",
-			"type": "plural_male",
 			"tags": ["therapy"]
 		},
 		{
@@ -368,7 +350,6 @@
 			"the": "i farmaci omeopatici",
 			"with": "con i farmaci omeopatici",
 			"to": "ai farmaci omeopatici",
-			"type": "plural_male",
 			"tags": ["therapy", "drug"]
 		},
 		{
@@ -378,7 +359,6 @@
 			"the": "la terapia del sale",
 			"with": "con la terapia del sale",
 			"to": "alla terapia del sale",
-			"type": "singular_male",
 			"tags": ["therapy"]
 		},
 		{
@@ -388,7 +368,6 @@
 			"the": "il vaccino antinfluenzale",
 			"with": "con il vaccino antinfluenzale",
 			"to": "al vaccino antinfluenzale",
-			"type": "singular_male",
 			"tags": ["drug"]
 		},
 		{
@@ -398,7 +377,6 @@
 			"the": "lo yoga",
 			"with": "con lo yoga",
 			"to": "allo yoga",
-			"type": "singular_male",
 			"tags": ["exercise"]
 		},
 		{
@@ -408,7 +386,6 @@
 			"the": "il sudore emesso durante l'attività fisica",
 			"with": "con il sudore emesso durante l'attività fisica",
 			"to": "al sudore emesso durante l'attività fisica",
-			"type": "singular_male",
 			"tags": ["drink"]
 		},
 		{
@@ -418,7 +395,6 @@
 			"the": "il miele",
 			"with": "col miele",
 			"to": "al miele",
-			"type": "singular_male",
 			"tags": ["food"]
 		},
 		{
@@ -428,7 +404,6 @@
 			"the": "gli alcolici",
 			"with": "con gli alcolici",
 			"to": "agli alcolici",
-			"type": "plural_male",
 			"tags": ["drink", "chemistry"]
 		},
 		{
@@ -438,7 +413,6 @@
 			"the": "la vaselina",
 			"with": "con la vaselina",
 			"to": "alla vaselina",
-			"type": "singular_male",
 			"tags": ["chemistry"]
 		},
 		{
@@ -448,7 +422,6 @@
 			"the": "i carboidrati",
 			"with": "con i carboidrati",
 			"to": "ai carboidrati",
-			"type": "plural_male",
 			"tags": ["food"]
 		},
 		{
@@ -458,7 +431,6 @@
 			"the": "l'argento colloidale",
 			"with": "con l'argento colloidale",
 			"to": "all'argento colloidale",
-			"type": "singular_male",
 			"tags": ["chemistry"]
 		},
 		{
@@ -468,7 +440,6 @@
 			"the": "i bagni in piscina o nelle vasche idromassaggio",
 			"with": "con i bagni in piscina o nelle vasche idromassaggio",
 			"to": "ai bagni in piscina o nelle vasche idromassaggio",
-			"type": "plural_male",
 			"tags": ["place"]
 		},
 		{
@@ -478,7 +449,6 @@
 			"the": "il latte",
 			"with": "con il latte",
 			"to": "al latte",
-			"type": "singular_male",
 			"tags": ["drink"]
 		},
 		{
@@ -488,7 +458,6 @@
 			"the": "il bicarbonato",
 			"with": "con il bicarbonato",
 			"to": "al bicarbonato",
-			"type": "singular_male",
 			"tags": ["chemistry"]
 		},
 		{
@@ -498,7 +467,6 @@
 			"the": "il peperoncino",
 			"with": "con il peperoncino",
 			"to": "al peperoncino",
-			"type": "singular_male",
 			"tags": ["food"]
 		},
 		{
@@ -508,7 +476,6 @@
 			"the": "le mosche",
 			"with": "con le mosche",
 			"to": "alle mosche",
-			"type": "plural_male",
 			"tags": ["animal"]
 		},
 		{
@@ -518,7 +485,6 @@
 			"the": "i raggi UV",
 			"with": "con i raggi UV",
 			"to": "ai raggi UV",
-			"type": "plural_male",
 			"tags": ["volatile"]
 		},
 		{
@@ -528,7 +494,6 @@
 			"the": "gli oli essenziali delle piante aromatiche",
 			"with": "con gli oli essenziali delle piante aromatiche",
 			"to": "agli oli essenziali delle piante aromatiche",
-			"type": "plural_male",
 			"tags": ["chemistry"]
 		},
 		{
@@ -538,7 +503,6 @@
 			"the": "l'ozono",
 			"with": "con l'ozono",
 			"to": "all'ozono",
-			"type": "singular_male",
 			"tags": ["volatile"]
 		},
 		{
@@ -548,7 +512,6 @@
 			"the": "l'etanolo",
 			"with": "con l'etanolo",
 			"to": "all'etanolo",
-			"type": "singular_male",
 			"tags": ["chemistry"]
 		},
 		{
@@ -558,7 +521,6 @@
 			"the": "il freddo",
 			"with": "con il freddo",
 			"to": "al freddo",
-			"type": "singular_male",
 			"tags": ["weather"]
 		},
 		{
@@ -568,7 +530,6 @@
 			"the": "le scie chimiche",
 			"with": "con le scie chimiche",
 			"to": "alle scie chimiche",
-			"type": "plural_male",
 			"tags": ["volatile"]
 		},
 		{
@@ -578,7 +539,6 @@
 			"the": "le bottiglie di plastica che si scaldano al sole",
 			"with": "con le bottiglie di plastica che si scaldano al sole",
 			"to": "alle bottiglie di plastica che si scaldano al sole",
-			"type": "plural_male",
 			"tags": ["tool"]
 		},
 		{
@@ -588,7 +548,6 @@
 			"the": "il mercurio",
 			"with": "con il mercurio",
 			"to": "al mercurio",
-			"type": "singular_male",
 			"tags": ["chemistry"]
 		},
 		{
@@ -598,7 +557,6 @@
 			"the": "le mascherine",
 			"with": "con le mascherine",
 			"to": "alle mascherine",
-			"type": "plural_male",
 			"tags": ["health-tool"]
 		},
 		{
@@ -608,7 +566,6 @@
 			"the": "i microchip sottopelle",
 			"with": "con i microchip sottopelle",
 			"to": "ai microchip sottopelle",
-			"type": "plural_male",
 			"tags": ["bad-technology"]
 		},
 		{
@@ -618,7 +575,6 @@
 			"the": "il latte fermentato",
 			"with": "con il latte fermentato",
 			"to": "al latte fermentato",
-			"type": "singular_male",
 			"tags": ["food", "chemistry"]
 		},
 		{
@@ -628,7 +584,6 @@
 			"the": "il teletrasporto",
 			"with": "con il teletrasporto",
 			"to": "al teletrasporto",
-			"type": "singular_male",
 			"tags": ["technology-fanta"]
 		},
 		{
@@ -638,7 +593,6 @@
 			"the": "la pizza con l'ananas",
 			"with": "con la pizza con l'ananas",
 			"to": "alla pizza con l'ananas",
-			"type": "singular_male",
 			"tags": ["food"]
 		},
 		{
@@ -648,7 +602,6 @@
 			"the": "i satelliti spia",
 			"with": "con i satelliti spia",
 			"to": "ai satelliti spia",
-			"type": "plural_male",
 			"tags": ["bad-technology"]
 		},
 		{
@@ -658,7 +611,6 @@
 			"the": "il plasma",
 			"with": "con il plasma",
 			"to": "al plasma",
-			"type": "singular_male",
 			"tags": ["chemistry"]
 		},
 		{
@@ -668,7 +620,6 @@
 			"the": "l'osteoporosi",
 			"with": "con l'osteoporosi",
 			"to": "all'osteoporosi",
-			"type": "singular_male",
 			"tags": ["disease"]
 		},
 		{
@@ -678,7 +629,6 @@
 			"the": "l'aborto",
 			"with": "con l'aborto",
 			"to": "all'aborto",
-			"type": "singular_male",
 			"tags": ["therapy"]
 		},
 		{
@@ -688,7 +638,6 @@
 			"the": "l'obesità",
 			"with": "con l'obesità",
 			"to": "all'obesità",
-			"type": "singular_male",
 			"tags": ["status"]
 		},
 		{
@@ -698,7 +647,6 @@
 			"the": "l'omosessualità",
 			"with": "con l'omosessualità",
 			"to": "all'omosessualità",
-			"type": "singular_male",
 			"tags": ["status"]
 		},
 		{
@@ -708,7 +656,6 @@
 			"the": "l'AIDS",
 			"with": "con l'AIDS",
 			"to": "all'AIDS",
-			"type": "singular_male",
 			"tags": ["disease", "disease-contagious"]
 		},
 		{
@@ -718,7 +665,6 @@
 			"the": "il collutorio",
 			"with": "con il collutorio",
 			"to": "al collutorio",
-			"type": "singular_male",
 			"tags": ["drink", "chemistry"]
 		},
 		{
@@ -728,7 +674,6 @@
 			"the": "la disfunzione erettile",
 			"with": "con la disfunzione erettile",
 			"to": "alla disfunzione erettile",
-			"type": "singular_male",
 			"tags": ["disease"]
 		},
 		{
@@ -738,7 +683,6 @@
 			"the": "le allergie chimiche",
 			"with": "con le allergie chimiche",
 			"to": "alle allergie chimiche",
-			"type": "plural_male",
 			"tags": ["disease"]
 		},
 		{
@@ -748,7 +692,6 @@
 			"the": "l'aria condizionata",
 			"with": "con l'aria condizionata",
 			"to": "all'aria condizionata",
-			"type": "singular_male",
 			"tags": ["technology", "volatile"]
 		},
 		{
@@ -758,17 +701,15 @@
 			"the": "le polveri sottili",
 			"with": "con le polveri sottili",
 			"to": "alle polveri sottili",
-			"type": "plural_male",
 			"tags": ["volatile"]
 		},
 		{
-			"from": "dai vaccini",
-			"of": "di vaccini",
-			"some": "dei vaccini",
-			"the": "i vaccini",
-			"with": "con i vaccini",
-			"to": "ai vaccini",
-			"type": "plural_male",
+			"from": "dai vaccini sperimentali",
+			"of": "di vaccini sperimentali",
+			"some": "dei vaccini sperimentali",
+			"the": "i vaccini sperimentali",
+			"with": "con i vaccini sperimentali",
+			"to": "ai vaccini sperimentali",
 			"tags": ["drug"]
 		},
 		{
@@ -778,7 +719,6 @@
 			"the": "l'urina",
 			"with": "con l'urina",
 			"to": "all'urina",
-			"type": "singular_male",
 			"tags": ["drink", "chemistry"]
 		},
 		{
@@ -788,7 +728,6 @@
 			"the": "l'app Immuni",
 			"with": "con l'app Immuni",
 			"to": "all'app Immuni",
-			"type": "singular_male",
 			"tags": ["app"]
 		},
 		{
@@ -798,17 +737,15 @@
 			"the": "WhatsApp",
 			"with": "con WhatsApp",
 			"to": "a WhatsApp",
-			"type": "singular_male",
 			"tags": ["app"]
 		},
 		{
 			"from": "dall'Australia",
-			"of": "d'Australia",
+			"of": "dell'Australia",
 			"some": "dell'Australia",
 			"the": "l'Australia",
 			"with": "con l'Australia",
 			"to": "all'Australia",
-			"type": "singular_male",
 			"tags": ["earth"]
 		},
 		{
@@ -818,8 +755,7 @@
 			"the": "il Molise",
 			"with": "con il Molise",
 			"to": "al Molise",
-			"type": "singular_male",
-			"tags": ["earth"]
+			"tags": ["earth", "place"]
 		},
 		{
 			"from": "dall'Atlantide",
@@ -828,7 +764,6 @@
 			"the": "Atlantide",
 			"with": "con Atlantide",
 			"to": "ad Atlantide",
-			"type": "singular_male",
 			"tags": ["earth"]
 		},
 		{
@@ -838,8 +773,7 @@
 			"the": "l'Area 51",
 			"with": "con l'Area 51",
 			"to": "all'Area 51",
-			"type": "singular_male",
-			"tags": ["earth"]
+			"tags": ["earth", "place"]
 		},
 		{
 			"from": "dalla luna",
@@ -848,7 +782,6 @@
 			"the": "la luna",
 			"with": "con la luna",
 			"to": "alla luna",
-			"type": "singular_male",
 			"tags": ["space"]
 		},
 		{
@@ -858,7 +791,6 @@
 			"the": "la terra",
 			"with": "con la terra",
 			"to": "alla terra",
-			"type": "singular_male",
 			"tags": ["space"]
 		},
 		{
@@ -868,7 +800,6 @@
 			"the": "il CERN",
 			"with": "con il CERN",
 			"to": "al CERN",
-			"type": "singular_male",
 			"tags": ["place", "bad-technology"]
 		},
 		{
@@ -878,7 +809,6 @@
 			"the": "Chernobyl",
 			"with": "con Chernobyl",
 			"to": "a Chernobyl",
-			"type": "singular_male",
 			"tags": ["place", "mythology"]
 		},
 		{
@@ -888,7 +818,6 @@
 			"the": "gli alieni",
 			"with": "con gli alieni",
 			"to": "agli alieni",
-			"type": "plural_male",
 			"tags": ["mythology"]
 		},
 		{
@@ -898,7 +827,6 @@
 			"the": "i giganti",
 			"with": "con i giganti",
 			"to": "ai giganti",
-			"type": "plural_male",
 			"tags": ["mythology"]
 		},
 		{
@@ -908,7 +836,6 @@
 			"the": "i dinosauri",
 			"with": "con i dinosauri",
 			"to": "ai dinosauri",
-			"type": "plural_male",
 			"tags": ["mythology"]
 		},
 		{
@@ -918,7 +845,6 @@
 			"the": "le piramidi",
 			"with": "con le piramidi",
 			"to": "alle piramidi",
-			"type": "plural_male",
 			"tags": ["mythology"]
 		},
 		{
@@ -928,7 +854,6 @@
 			"the": "il mostro di Lochness",
 			"with": "con mostro di Lochness",
 			"to": "al mostro di Lochness",
-			"type": "singualr",
 			"tags": ["mythology"]
 		},
 		{
@@ -1042,7 +967,7 @@
 		{
 			"from": "dagli incendi in Australia",
 			"of": "di incendi in Australia",
-			"some": "gli incendi in Australia",
+			"some": "degli incendi in Australia",
 			"the": "gli incendi in Australia",
 			"with": "con gli incendi in Australia",
 			"to": "agli incendi in Australia",
@@ -1067,12 +992,21 @@
 			"tags": ["event", "event-mankind"]
 		},
 		{
-			"from": "dalla teoria sull'evoluzione",
-			"of": "della teoria sull'evoluzione",
-			"some": "della teoria sull'evoluzione",
-			"the": "la teoria sull'evoluzione",
-			"with": "con la teoria sull'evoluzione",
-			"to": "alla teoria sull'evoluzione",
+			"from": "dalla teoria dell'evoluzione",
+			"of": "della teoria dell'evoluzione",
+			"some": "della teoria dell'evoluzione",
+			"the": "la teoria dell'evoluzione",
+			"with": "con la teoria dell'evoluzione",
+			"to": "alla teoria dell'evoluzione",
+			"tags": ["theory"]
+		},
+		{
+			"from": "dalla teoria gender",
+			"of": "della teoria gender",
+			"some": "della teoria gender",
+			"the": "la teoria gender",
+			"with": "con la teoria gender",
+			"to": "alla teoria gender",
 			"tags": ["theory"]
 		},
 		{
@@ -1101,6 +1035,15 @@
 			"with": "con l'invasione in Ucraina",
 			"to": "all'invasione in Ucraina",
 			"tags": ["event", "event-mankind"]
+		},
+		{
+			"from": "dalla mascherina chirurgica",
+			"of": "dalla mascherina chirurgica",
+			"some": "dalla mascherina chirurgica",
+			"the": "la mascherina chirurgica",
+			"with": "con la mascherina chirurgica",
+			"to": "alla mascherina chirurgica",
+			"tags": ["dress"]
 		}
 	]
 }

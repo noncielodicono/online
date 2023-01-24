@@ -19,17 +19,13 @@
     };
 
     let isLastNode = function(node) {
-        if( node == undefined ) {
-            return false;
-        } else if(node.next == undefined) {
-            return false;
-        } else if( node.next.predicate == 'end') {
-            return true;
-        } else if ( node.next.tags.length == 1 && node.next.tags[0] == 'end' ) {
-            return true;
-        } else {
-            return false;
-        }
+        return
+            (node && node.next) &&
+            (
+                node.next.predicate == 'end' ||
+                ( node.next.tags.length == 1 && node.next.tags[0] == 'end' )
+            )
+        ;
     };
 
     // Stampa il contenuto dei nodi e memorizza le informazioni necessarie a renderizzare il successivo
@@ -48,8 +44,7 @@
             metadata.setType('singular_male');
             return node.label;
         } else if(
-            nodeType === 'evil_person_does_what' ||
-            nodeType === 'evil_people_does_what' ||
+            nodeType === 'who_evil_does_what' ||
             nodeType === 'do_something_does_what' ||
             nodeType === 'people_does_what'
         ) {
@@ -57,11 +52,12 @@
             metadata.setNextTags( node.next.tags );
             return node[metadata.getType()];
         } else if(
-            nodeType === 'what' ||
             nodeType === 'who' ||
-            nodeType === 'who_evil' ||
-            nodeType === 'evil_organization'
+            nodeType === 'who_evil'
         ) {
+            metadata.setType( node.type );
+            return node['label'];
+        } else if( nodeType === 'what' ) {
             metadata.setType( node.type );
             return node[metadata.getNextPredicate()];
         }
@@ -69,23 +65,28 @@
 
     // Estrae un nodo random a partire da una specifica tipologia
     let getRandomNode = function(nodeType) {
-        let nodeTypes = nodes[nodeType];
+        if( metadata.getNextTags().length == 1 && metadata.getNextTags()[0] == 'end' ) {
+            return null;
+        }
+
+        let availableNodes;
         // filtro per tag
         if(  nodeType === 'what' ) {
-            nodeTypes = $.map(nodeTypes, function (node) {
+            availableNodes = $.map(nodes[nodeType], function (node) {
                 if( common.intersect(node.tags, metadata.getNextTags()).length > 0 ) {
                     return node;
                 }
             });
+        } else {
+            availableNodes = nodes[nodeType];
         }
 
-        if( metadata.getNextTags().length == 1 && metadata.getNextTags()[0] == 'end' ) {
-            return null;
-        } else if( nodeTypes.length === 0) {
+        // Se non è stato trovato nessun percorso
+        if( availableNodes.length === 0) {
             throw 'no nodes founded';
         }
 
-        return nodeTypes[ common.getRandomNumber(0, nodeTypes.length-1) ];
+        return availableNodes[ common.getRandomNumber(0, availableNodes.length-1) ];
     };
 
     // Genera le fake news
@@ -106,6 +107,7 @@
                 }
             }
             let newFakeNews = fakeNews.join(' ');
+            newFakeNews = newFakeNews.trim();
             $('#fake-news').text( newFakeNews.charAt(0).toUpperCase() + newFakeNews.slice(1) + '.' );
         } catch (e) {
             console.log(e);

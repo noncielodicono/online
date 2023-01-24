@@ -5,22 +5,19 @@
             'json/do_something_does_what.json',
             'json/do_to_yourself.json',
             'json/do_with.json',
-            'json/evil_organization.json',
-            'json/evil_people_does_what.json',
-            'json/evil_person_does_what.json',
             'json/is_possible_to_do.json',
             'json/people_does_what.json',
             'json/what.json',
             'json/who.json',
-            'json/who_evil.json'
+            'json/who_evil.json',
+            'json/who_evil_does_what.json'
         ],
         'paths': [
             ['do_with', 'what', 'do_something_does_what', 'what'],
             ['do_to_yourself', 'do_something_does_what', 'what'],
             ['is_possible_to_do', 'what'],
             ['who', 'people_does_what', 'what'],
-            ['who_evil', 'evil_person_does_what', 'what'],
-            ['evil_organization', 'evil_people_does_what', 'what'],
+            ['who_evil', 'who_evil_does_what', 'what']
         ],
         'pathsWeight': [],
         'totalPathsWeight': 0,
@@ -49,14 +46,8 @@
          * Filtra la struttura estraendo solo i nodi associati a un determinato tag
          */
         intersect: function(array1, array2) {
-            let arrayTemp;
-            if (array2.length > array1.length) {
-                arrayTemp = array2;
-                array2 = array1;
-                array1 = arrayTemp;
-            }
-            return array1.filter(function (e) {
-                return array2.indexOf(e) > -1;
+            return array1.filter(function(n) {
+                return array2.indexOf(n) !== -1;
             });
         },
         /*

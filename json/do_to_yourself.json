@@ -1,29 +1,18 @@
 {
 	"label": "do_to_yourself",
 	"value": [
-		{
-			"label": "tagliarsi la barba"
-		},
-		{
-			"label": "mettersi due o tre mascherine una sull'altra"
-		},
-		{
-			"label": "respirare l'aria calda dall’asciugacapelli"
-		},
-		{
-			"label": "trattenere i propri gas intestinali"
-		},
-		{
-			"label": "parcheggiare con lo stereo acceso"
-		},
-		{
-			"label": "prendere il sole"
-		},
-		{
-			"label": "fare attività fisica all'aria aperta"
-		},
-		{
-			"label": "masturbarsi"
-		}
+		{ "label": "tagliarsi la barba troppo spesso " },
+		{ "label": "mettersi due o tre mascherine una sull'altra " },
+		{ "label": "respirare l'aria calda dall’asciugacapelli " },
+		{ "label": "trattenere i propri gas intestinali " },
+		{ "label": "parcheggiare con lo stereo acceso " },
+		{ "label": "prendere il sole " },
+		{ "label": "fare attività fisica all'aria aperta " },
+		{ "label": "masturbarsi almeno 2 volte al giorno " },
+		{ "label": "mettere in bocca una moneta da 5 centesimi " },
+		{ "label": "seguire una dieta vegana " },
+		{ "label": "seguire una dieta fruttariana" },
+		{ "label": "seguire una dieta a base di cibo per gatti" },
+		{ "label": "non andare a messa la domenica" }
 	]
 }

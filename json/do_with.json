@@ -2,14 +2,14 @@
 	"label": "do_with",
 	"value": [
 		{
-			"label": "fare gargarismi",
+			"label": "fare i gargarismi",
 			"next": {
 				"predicate": "with",
 				"tags": ["drink", "chemistry"]
 			}
 		},
 		{
-			"label": "assumere",
+			"label": "assumere regolarmente",
 			"next": {
 				"predicate": "some",
 				"tags": ["chemistry", "drug", "drink"]
@@ -23,10 +23,10 @@
 			}
 		},
 		{
-			"label": "mangiare",
+			"label": "bere piccole quantità",
 			"next": {
 				"predicate": "the",
-				"tags": ["food"]
+				"tags": ["chemistry", "drink"]
 			}
 		},
 		{
@@ -37,10 +37,10 @@
 			}
 		},
 		{
-			"label": "bere",
+			"label": "mangiare piccole quantità",
 			"next": {
 				"predicate": "the",
-				"tags": ["chemistry", "drink"]
+				"tags": ["food"]
 			}
 		},
 		{
@@ -51,14 +51,14 @@
 			}
 		},
 		{
-			"label": "fare un bagno caldo",
+			"label": "fare un bagno caldo in una vasca piena",
 			"next": {
-				"predicate": "with",
+				"predicate": "of",
 				"tags": ["drink", "chemistry"]
 			}
 		},
 		{
-			"label": "mischiare la candeggina",
+			"label": "assumere per via orale della candeggina mischiata",
 			"next": {
 				"predicate": "with",
 				"tags": ["chemistry", "drink", "drug"]
@@ -79,28 +79,28 @@
 			}
 		},
 		{
-			"label": "indossare",
+			"label": "indossare ogni giorno",
 			"next": {
 				"predicate": "the",
 				"tags": ["dress"]
 			}
 		},
 		{
-			"label": "fumare 5mg",
+			"label": "fumare ogni giorno 5mg",
 			"next": {
 				"predicate": "of",
-				"tags": ["chemistry", "food", "drug"]
+				"tags": ["chemistry", "drug"]
 			}
 		},
 		{
-			"label": "usare troppo",
+			"label": "usare troppo spesso",
 			"next": {
 				"predicate": "the",
 				"tags": ["technology", "drug"]
 			}
 		},
 		{
-			"label": "essere esposti a",
+			"label": "essere esposti",
 			"next": {
 				"predicate": "to",
 				"tags": ["volatile", "bad-technology-volatile"]
@@ -111,6 +111,20 @@
 			"next": {
 				"predicate": "the",
 				"tags": ["app"]
+			}
+		},
+		{
+			"label": "leccare troppo spesso",
+			"next": {
+				"predicate": "some",
+				"tags": ["chemistry", "drug"]
+			}
+		},
+		{
+			"label": "praticare un aerosol",
+			"next": {
+				"predicate": "of",
+				"tags": ["chemistry", "drug", "volatile"]
 			}
 		}
 	]

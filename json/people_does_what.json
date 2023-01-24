@@ -12,10 +12,10 @@
 			}
 		},
 		{
-			"singular_male": "può trasmettere",
-			"plural_male": "possono trasmettere",
-			"singular_female": "può trasmettere",
-			"plural_female": "possono trasmettere",
+			"singular_male": "può trasmettere più facilmente",
+			"plural_male": "possono trasmettere più facilmente",
+			"singular_female": "può trasmettere più facilmente",
+			"plural_female": "possono trasmettere più facilmente",
 			"next": {
 				"predicate": "the",
 				"tags": ["disease-contagious", "bad-technology-volatile"]
@@ -72,13 +72,53 @@
 			}
 		},
 		{
-			"singular_male": "è stato messo in quarantena a causa",
-			"plural_male": "sono stati messi in quarantena a causa",
-			"singular_female": "è stata messa in quarantena a causa",
-			"plural_female": "sono state messe in quarantena a causa",
+			"singular_male": "negli anni '60 è stato messo in quarantena a causa",
+			"plural_male": "negli anni '60 sono stati messi in quarantena a causa",
+			"singular_female": "negli anni '60 è stata messa in quarantena a causa",
+			"plural_female": "negli anni '60 sono state messe in quarantena a causa",
 			"next": {
 				"predicate": "some",
 				"tags": ["disease-contagious", "bad-technology-volatile"]
+			}
+		},
+		{
+			"singular_male": "ha più difficoltà a trovare lavoro perché dipendente",
+			"plural_male": "hanno più difficoltà a trovare lavoro perché spesso dipendenti",
+			"singular_female": "ha più difficoltà a trovare lavoro perché dipendente",
+			"plural_female": "hanno più difficoltà a trovare lavoro perché spesso dipendenti",
+			"next": {
+				"predicate": "from",
+				"tags": ["drug", "chemistry"]
+			}
+		},
+		{
+			"singular_male": "è spesso soggetto a discriminazione razziale",
+			"plural_male": "sono spesso soggetti a discriminazione razziale",
+			"singular_female": "è spesso soggetta a discriminazione razziale",
+			"plural_female": "sono spesso soggette a discriminazione razziale",
+			"next": {
+				"predicate": "end",
+				"tags": ["end"]
+			}
+		},
+		{
+			"singular_male": "è ghiotto",
+			"plural_male": "sono ghiotti",
+			"singular_female": "è ghiotta",
+			"plural_female": "sono ghiotte",
+			"next": {
+				"predicate": "of",
+				"tags": ["food"]
+			}
+		},
+		{
+			"singular_male": "ama indossare",
+			"plural_male": "amano indossare",
+			"singular_female": "ama indossare",
+			"plural_female": "amano indossare",
+			"next": {
+				"predicate": "the",
+				"tags": ["dress"]
 			}
 		}
 	]

@@ -2,108 +2,64 @@
 	"label": "who",
 	"value": [
 		{
-			"from": "dai bambini",
-			"of": "dei bambini",
-			"some": "dei bambini",
-			"the": "i bambini",
-			"with": "con i bambini",
+			"label": "i bambini neonati",
 			"type": "plural_male"
 		},
 		{
-			"from": "dagli animali domestici",
-			"of": "degli animali domestici",
-			"some": "degli animali domestici",
-			"the": "gli animali domestici",
-			"with": "con gli animali domestici",
+			"label": "gli animali domestici",
 			"type": "plural_male"
 		},
 		{
-			"from": "dagli extracomunitari",
-			"of": "degli extracomunitari",
-			"some": "degli extracomunitari",
-			"the": "gli extracomunitari",
-			"with": "con gli extracomunitari",
+			"label": "gli extracomunitari",
 			"type": "plural_male"
 		},
 		{
-			"from": "dai fumatori",
-			"of": "dei fumatori",
-			"some": "dei fumatori",
-			"the": "i fumatori",
-			"with": "con i fumatori",
+			"label": "i fumatori",
 			"type": "plural_male"
 		},
 		{
-			"from": "dalle persone che abitano in zone con clima caldo umido",
-			"of": "delle persone che abitano in zone con clima caldo umido",
-			"some": "delle persone che abitano in zone con clima caldo umido",
-			"the": "le persone che abitano in zone con clima caldo umido",
-			"with": "con le persone che abitano in zone con clima caldo umido",
+			"label": "le persone che abitano in zone con clima caldo umido",
 			"type": "plural_female"
 		},
 		{
-			"from": "dalle persone infette da coronavirus",
-			"of": "delle persone infette da coronavirus",
-			"some": "delle persone infette da coronavirus",
-			"the": "le persone infette da coronavirus",
-			"with": "con le persone infette da coronavirus",
+			"label": "le persone infette da coronavirus",
 			"type": "plural_female"
 		},
 		{
-			"from": "da quelli coi capelli rossi",
-			"of": "di quelli coi capelli rossi",
-			"some": "di quelli coi capelli rossi",
-			"the": "quelli coi capelli rossi",
-			"with": "con quelli coi capelli rossi",
+			"label": "quelli coi capelli rossi",
 			"type": "plural_male"
 		},
 		{
-			"from": "dagli omosessuali",
-			"of": "di omosessuali",
-			"some": "degli omosessuali",
-			"the": "gli omosessuali",
-			"with": "con gli omosessuali",
+			"label": "gli omosessuali",
 			"type": "plural_male"
 		},
 		{
-			"from": "dagli asiatici",
-			"of": "di asiatici",
-			"some": "degli asiatici",
-			"the": "gli asiatici",
-			"with": "con gli asiatici",
+			"label": "gli asiatici",
 			"type": "plural_male"
 		},
 		{
-			"from": "dalle persone di colore",
-			"of": "di persone di colore",
-			"some": "delle persone di colore",
-			"the": "le persone di colore",
-			"with": "con le persone di colore",
+			"label": "le persone di colore",
 			"type": "plural_female"
 		},
 		{
-			"from": "dal primo sosia di Elvis Presley",
-			"of": "del primo sosia di Elvis Presley",
-			"some" : "dal primo sosia di Elvis Presley",
-			"the": "il primo sosia di Elvis Presley",
-			"with": "con il primo sosia di Elvis Presley",
+			"label": "il primo sosia di Elvis Presley",
 			"type": "singular_male"
 		},
 		{
-			"from": "dal movimento QAnon",
-			"of": "del movimento QAnon",
-			"some" : "dal movimento QAnon",
-			"the": "il movimento QAnon",
-			"with": "con il movimento QAnon",
+			"label": "i membri del movimento QAnon",
+			"type": "plural_male"
+		},
+		{
+			"label": "Michael Jackson",
 			"type": "singular_male"
 		},
 		{
-			"from": "da Michael Jackson",
-			"of": "di Michael Jackson",
-			"some": "di Michael Jackson",
-			"the": "Michael Jackson",
-			"with": "con Michael Jackson",
+			"label": "il rapper Kanye West",
 			"type": "singular_male"
+		},
+		{
+			"label": "i terrapiattisti",
+			"type": "plural_male"
 		}
 	]
 }
